@@ -1,139 +1,188 @@
-# MRDĀ — Café Experience & Reservation Platform
+# MRDĀ — A Café Experience, Digitally Reimagined
 
-A premium digital experience for MRDĀ, designed to bring together its menu, atmosphere, and table reservations through an elegant and responsive website.
+<p align="center">
+  <a href="https://atmrda.vercel.app">
+    <img src="https://img.shields.io/badge/EXPLORE%20LIVE%20WEBSITE-atmrda.vercel.app-8B3A34?style=for-the-badge&labelColor=1E1E1E" alt="Explore MRDĀ Live Website" />
+  </a>
+</p>
 
-MRDĀ is a full-stack café website built to showcase the brand's identity while providing customers with a convenient way to explore the menu, discover the space, and reserve a table.
+<p align="center">
+  <strong>A quiet place for good company.</strong><br/>
+  A premium digital experience crafted for MRDĀ — where thoughtful design meets the warmth of café culture.
+</p>
 
----
-
-## ✨ Overview
-
-MRDĀ is more than a café website. It is a digital extension of the café's atmosphere and identity.
-
-The platform combines an editorial-style frontend with a backend-powered reservation and menu management system. Customers can explore the café experience, while administrators can manage menu availability and reservations through a dedicated dashboard.
-
-## 🌐 Project Links
-
-| Resource | Link |
-|---|---|
-| Live Website | Coming soon |
-| GitHub Repository | Add repository URL |
-| Café Instagram | [@at.mrda](https://www.instagram.com/at.mrda/) |
-
----
-
-## 📸 Preview
-
-> Add screenshots or a short demo GIF of the website here.
-
-<!--
-Recommended:
-Create a `docs/` folder and add screenshots.
-
-![MRDĀ Website Preview](docs/preview.png)
--->
+<p align="center">
+  <a href="https://atmrda.vercel.app">Live Website</a>
+  ·
+  <a href="https://github.com/Darpan0710/MRDA-CAFE">Source Code</a>
+  ·
+  <a href="https://www.instagram.com/at.mrda/">Instagram</a>
+</p>
 
 ---
 
-## 🚀 Features
+## The Experience
+
+MRDĀ is a full-stack café website designed to translate the atmosphere of a modern café into a thoughtful digital experience.
+
+Inspired by editorial design and contemporary hospitality brands, the platform brings together menu discovery, the café's story, its physical space, and table reservations in one cohesive experience.
+
+The goal was simple: **make the website feel like an extension of the café itself.**
+
+From the first interaction to exploring the menu, every section is designed to feel intentional, refined, and easy to navigate.
+
+---
+
+## Preview
+
+<p align="center">
+  <a href="https://atmrda.vercel.app">
+    <img src="https://placehold.co/1200x650/F3EDE3/8B3A34?text=MRD%C4%80%20%E2%80%94%20A%20Quiet%20Place%20For%20Good%20Company" alt="MRDĀ website preview placeholder" width="100%" />
+  </a>
+</p>
+
+<p align="center">
+  <em>Explore the live experience: <a href="https://atmrda.vercel.app">atmrda.vercel.app</a></em>
+</p>
+
+> **Preview note:** Replace this placeholder with a real screenshot of the website when adding project visuals.
+
+---
+
+## What Makes MRDĀ Special?
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3>01 · Editorial Design</h3>
+      A refined visual language inspired by premium hospitality and magazine layouts, with carefully considered typography, spacing, and imagery.
+    </td>
+    <td width="50%">
+      <h3>02 · Distinct Menu Experiences</h3>
+      Explore the café's food and beverage offerings through the dedicated Plated and Poured experiences.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>03 · The Space & Story</h3>
+      Discover the café's atmosphere, interiors, and identity through dedicated storytelling sections.
+    </td>
+    <td width="50%">
+      <h3>04 · Full-Stack Functionality</h3>
+      A connected backend and database support the website's operational features, including menu and reservation management.
+    </td>
+  </tr>
+</table>
+
+---
+
+## Features
 
 ### Customer Experience
 
-- **Premium Editorial Design** — A refined visual experience inspired by modern café and hospitality brands.
-- **Responsive Interface** — Designed to work across desktop, tablet, and mobile devices.
-- **Menu Discovery** — Explore the café's food and beverage offerings through dedicated menu experiences.
-- **Plated & Poured** — Separate menu categories with distinct visual identities.
-- **The Space** — Discover the café's atmosphere and interiors.
-- **Our Story** — Learn about the café and its identity.
-- **Visit Us** — Access café information and visit details.
-- **Table Reservations** — Customers can request reservations through the website.
+- **Home** — An immersive introduction to MRDĀ and its identity.
+- **Menu Overview** — A magazine-inspired gateway to the café's menu.
+- **Plated** — A dedicated experience for food offerings.
+- **Poured** — A dedicated experience for beverages.
+- **The Space** — Explore the café's atmosphere and interiors.
+- **Our Story** — Discover the identity behind MRDĀ.
+- **Visit Us** — Find information for visiting the café.
+- **Table Reservations** — A convenient way for customers to request a table.
+- **Responsive Interface** — Designed to provide a thoughtful experience across desktop, tablet, and mobile.
 
-### Admin Dashboard
+### Admin & Operations
 
-- **Menu Management** — Add, update, and remove menu items.
-- **Availability Control** — Mark menu items as available or out of stock.
-- **Reservation Management** — View and manage customer reservations.
-- **Booking Slot Controls** — Manage reservation availability and disable selected booking slots.
-- **Centralized Management** — Manage café operations through a dedicated admin interface.
+- Menu item management
+- Menu availability controls
+- Reservation management
+- Booking-slot availability controls
+- Supabase-backed data management
 
 ---
 
-## 🛠️ Tech Stack
+## Design Direction
+
+MRDĀ's visual identity is built around a calm, editorial approach.
+
+| Design Element | Direction |
+|---|---|
+| Visual Mood | Premium, warm, minimal, editorial |
+| Primary Identity | Terracotta / deep red |
+| Plated Palette | `#8B3A34` |
+| Poured Palette | `#1E394C` · `#142836` |
+| Layout Approach | Magazine-inspired compositions |
+| Experience Goal | Elegant, intuitive, and responsive |
+
+The design avoids unnecessary visual complexity, allowing the café's identity, imagery, and content to take center stage.
+
+---
+
+## Technology Stack
+
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+</p>
 
 | Layer | Technology |
 |---|---|
 | Frontend | React |
-| Build Tool | Vite |
 | Language | TypeScript |
-| Backend | Node.js |
-| API | Express.js |
+| Build Tool | Vite |
+| Backend | Node.js · Express |
 | Database | Supabase PostgreSQL |
-| Authentication | Admin authentication |
-| Styling | Project's configured styling system |
-| Version Control | Git & GitHub |
-| Deployment | Vercel *(planned / configured as applicable)* |
+| API Deployment | Vercel Functions |
+| Frontend Deployment | Vercel |
+| Version Control | Git · GitHub |
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
-MRDĀ follows a client-server architecture.
+MRDĀ follows a client-server architecture. The frontend communicates with the backend API, which handles server-side data operations through Supabase.
 
-```text
-                 ┌──────────────────────┐
-                 │      Customer        │
-                 │   Browser / Mobile   │
-                 └──────────┬───────────┘
-                            │
-                            ▼
-                 ┌──────────────────────┐
-                 │   React + Vite UI    │
-                 │     TypeScript       │
-                 └──────────┬───────────┘
-                            │ HTTP Requests
-                            ▼
-                 ┌──────────────────────┐
-                 │    Express Server    │
-                 │      REST API        │
-                 └──────────┬───────────┘
-                            │
-                            ▼
-                 ┌──────────────────────┐
-                 │   Supabase Client    │
-                 │   Server-side only   │
-                 └──────────┬───────────┘
-                            │
-                            ▼
-                 ┌──────────────────────┐
-                 │  Supabase PostgreSQL │
-                 │       Database       │
-                 └──────────────────────┘
+```mermaid
+flowchart TD
+    A[Customer / Admin] --> B[React + TypeScript Frontend]
+    B --> C[HTTP API Requests]
+    C --> D[Vercel API Handler]
+    D --> E[Express Backend]
+    E --> F[Supabase Server Client]
+    F --> G[(Supabase PostgreSQL)]
 ```
 
-The frontend communicates with the Express API. The backend handles data operations through the server-side Supabase client.
+### Architecture Highlights
 
-The Supabase service-role key is kept on the server and is never exposed to the browser.
+- React and Vite power the customer-facing interface.
+- The backend handles API requests and data operations.
+- Supabase PostgreSQL stores application data.
+- The Supabase secret key is intended for server-side use only.
+- Vercel hosts the deployed application and configured API routes.
 
 ---
 
-## ⚙️ Getting Started
+## Getting Started
 
-Follow these steps to run MRDĀ locally.
+Want to explore the project locally? Follow the steps below.
 
 ### Prerequisites
 
-Make sure you have the following installed:
+Make sure you have:
 
 - [Node.js](https://nodejs.org/)
 - npm
-- Git
+- [Git](https://git-scm.com/)
 - A Supabase project
 
 ### 1. Clone the Repository
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
-cd <YOUR_PROJECT_FOLDER>
+git clone https://github.com/Darpan0710/MRDA-CAFE.git
+cd MRDA-CAFE
 ```
 
 ### 2. Install Dependencies
@@ -146,7 +195,7 @@ npm install
 
 Create a `.env.local` file in the project root.
 
-Add the required environment variables:
+Add the environment variables required by the application:
 
 ```env
 SUPABASE_URL=your_supabase_project_url
@@ -158,17 +207,17 @@ ADMIN_ID=your_admin_id
 ADMIN_PASSWORD=your_admin_password
 ```
 
-Use the variable names required by the current application configuration.
+Use the exact variable names expected by the current application configuration.
 
-**Important:** Never commit `.env.local` or expose your Supabase service-role key in frontend code.
+> **Security:** Never commit `.env.local` or expose your Supabase secret key in frontend code. Keep all private credentials on the server.
 
 ### 4. Configure Supabase
 
 1. Create a project in the [Supabase Dashboard](https://supabase.com/dashboard).
 2. Open the SQL Editor.
-3. Execute the database schema SQL included in the project.
-4. Execute the seed SQL if demo data is required.
-5. Copy the Project URL and server-side secret key into `.env.local`.
+3. Run the database schema SQL provided with the project.
+4. Run the seed SQL if demo data is required.
+5. Add the project URL and server-side secret key to `.env.local`.
 
 ### 5. Start the Development Server
 
@@ -176,99 +225,104 @@ Use the variable names required by the current application configuration.
 npm run dev
 ```
 
-Open the local URL shown in the terminal.
+Open the local URL displayed in your terminal.
 
 ---
 
-## 🔐 Security
+## Build & Validation
 
-MRDĀ uses server-side environment variables to protect sensitive configuration.
-
-- Supabase secret keys must remain on the backend.
-- `.env.local` must not be committed to Git.
-- Admin credentials should be changed from any default values.
-- Never expose secret keys through `VITE_` environment variables.
-- Use a strong session secret.
-- Do not share environment files or credentials publicly.
-
----
-
-## 📁 Project Structure
-
-The project is organized into frontend, backend, and database-related modules.
-
-```text
-project/
-├── src/                  # Frontend application
-├── server/               # Express backend
-├── public/               # Static assets
-├── data/                 # Local development data, if applicable
-├── .env.local            # Local environment variables (not committed)
-├── .gitignore
-├── package.json
-├── tsconfig.json
-└── README.md
-```
-
-*Update this structure if the actual project folders differ.*
-
----
-
-## 🧪 Development & Quality Checks
-
-The project has been checked during development using TypeScript validation and production build checks.
-
-Run the available scripts from `package.json`:
+Create a production build:
 
 ```bash
 npm run build
 ```
 
-If a lint script is configured:
+Run the configured TypeScript validation:
 
 ```bash
 npm run lint
 ```
 
----
-
-## 🚢 Deployment
-
-The frontend is intended to be deployed using Vercel.
-
-Before deployment:
-
-1. Push the project to GitHub.
-2. Import the repository into Vercel.
-3. Configure the required environment variables in the Vercel project settings.
-4. Configure the backend deployment according to the server's hosting requirements.
-5. Verify the production API URL and frontend API configuration.
-6. Test menu loading, admin authentication, and reservation functionality.
-
-> **Note:** The Express backend must be hosted in an environment that supports the server runtime. A frontend deployment alone does not automatically deploy a separate Express server.
+The project has been validated with dependency installation, TypeScript checks, and a production build during deployment preparation.
 
 ---
 
-## 🎯 Project Goals
+## Deployment
 
-- Create a distinctive digital identity for MRDĀ.
-- Deliver a premium and responsive customer experience.
-- Make menu discovery intuitive and visually engaging.
-- Simplify reservation management for café administrators.
-- Build a maintainable full-stack application using modern web technologies.
+MRDĀ is deployed on Vercel.
+
+<p align="center">
+  <a href="https://atmrda.vercel.app">
+    <img src="https://img.shields.io/badge/STATUS-LIVE-2E8B57?style=for-the-badge" alt="Live" />
+  </a>
+</p>
+
+### Deployment Overview
+
+1. The source code is maintained in GitHub.
+2. Vercel is connected to the repository.
+3. The frontend is built using Vite.
+4. API requests are routed through the configured Vercel API handler.
+5. Supabase environment variables are configured in the Vercel project settings.
+
+**Live URL:** [https://atmrda.vercel.app](https://atmrda.vercel.app)
 
 ---
 
-## 👨‍💻 Developer
+## Project Structure
 
-Developed as a full-stack web development project.
+The application is organized around the frontend, backend API, and shared configuration.
 
-**MRDĀ — Plated, Poured & Everything In Between.**
+```text
+MRDA-CAFE/
+├── api/
+│   └── index.ts             # Vercel API entry point
+├── src/                     # Frontend application
+├── server/                  # Backend modules
+├── public/                  # Static assets
+├── data/                    # Local development data, if applicable
+├── .env.local               # Local environment variables (not committed)
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+├── vite.config.ts
+├── vercel.json
+└── README.md
+```
+
+*The structure above is a high-level overview. Refer to the repository for the complete implementation.*
 
 ---
 
-## 📄 License
+## Learning & Development
 
-This project is currently intended for demonstration and development purposes.
+This project brings together several practical full-stack development concepts:
 
-Add an appropriate license before permitting reuse or redistribution.
+- Building responsive interfaces with React and TypeScript
+- Creating a consistent visual identity across multiple pages
+- Designing and integrating backend APIs
+- Working with Supabase PostgreSQL
+- Managing environment variables and server-side secrets
+- Configuring Vercel deployment and API routing
+- Maintaining a GitHub-based development workflow
+
+---
+
+## Connect
+
+<p align="center">
+  <strong>MRDĀ — Plated, Poured & Everything In Between.</strong>
+  <br/><br/>
+  <a href="https://atmrda.vercel.app">Visit the Website</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/Darpan0710/MRDA-CAFE">Explore the Code</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.instagram.com/at.mrda/">Follow MRDĀ</a>
+</p>
+
+---
+
+<p align="center">
+  <sub>Designed and developed with care for the MRDĀ café experience.</sub>
+</p>
