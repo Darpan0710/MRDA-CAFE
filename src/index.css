@@ -1,0 +1,249 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brick: #873A35;
+  --color-ivory: #FFF3DF;
+  --color-cream: #F1E9DC;
+  --color-beige: #DCCBB4;
+  --color-sandstone: #C7A582;
+  --color-terracotta: #B77D5B;
+  --color-walnut: #70452D;
+  --color-charcoal: #292723;
+  --color-sage: #9DA58A;
+  --color-navy: #29445A;
+
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Syne", "Plus Jakarta Sans", sans-serif;
+}
+
+@layer base {
+  html, body {
+    background-color: #F1E9DC;
+    color: #292723;
+    font-family: var(--font-sans);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overscroll-behavior: none;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+/* Custom editorial typography styles */
+.font-editorial-serif {
+  font-family: var(--font-serif);
+}
+
+.font-editorial-sans {
+  font-family: var(--font-sans);
+}
+
+.font-editorial-display {
+  font-family: var(--font-display);
+}
+
+/* Full-page vertical snap container */
+.snap-scroll-container {
+  height: 100svh;
+  max-height: 100svh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  scroll-padding-top: 0px;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-y: contain;
+}
+
+/* Snap sections - strictly 100svh on desktop, fluid on mobile */
+.snap-full-section {
+  height: 100svh;
+  min-height: 100svh;
+  max-height: 100svh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Mobile & tablet responsive override: allow natural flow on narrow screens */
+@media (max-width: 1023px) {
+  .snap-scroll-container {
+    scroll-snap-type: none;
+    height: 100svh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scroll-padding-top: 4rem;
+  }
+  .snap-full-section {
+    scroll-snap-align: none;
+    height: auto;
+    min-height: 100svh;
+    max-height: none;
+    overflow: visible;
+  }
+}
+
+/* Custom animations with prefers-reduced-motion support */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slowZoom {
+  from { transform: scale(1.04); }
+  to { transform: scale(1); }
+}
+
+@keyframes modalEnter {
+  from {
+    opacity: 0;
+    transform: scale(0.96) translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.45s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.55s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-slide-left {
+  animation: slideInLeft 0.55s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-slide-right {
+  animation: slideInRight 0.55s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-slow-zoom {
+  animation: slowZoom 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-modal-enter {
+  animation: modalEnter 0.28s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Premium Subtle Editorial Transitions & Hover Animations */
+.hover-lift {
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.hover-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px -4px rgba(41, 39, 35, 0.08);
+}
+
+.hover-lift:active {
+  transform: translateY(0px) scale(0.99);
+}
+
+.hover-zoom-subtle {
+  overflow: hidden;
+}
+.hover-zoom-subtle img {
+  transition: transform 0.75s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.hover-zoom-subtle:hover img {
+  transform: scale(1.035);
+}
+
+/* Stagger entrance utility classes */
+.stagger-1 {
+  animation-delay: 0.06s;
+}
+.stagger-2 {
+  animation-delay: 0.12s;
+}
+.stagger-3 {
+  animation-delay: 0.18s;
+}
+.stagger-4 {
+  animation-delay: 0.24s;
+}
+
+/* Gentle image reveal keyframe */
+@keyframes imageReveal {
+  from {
+    opacity: 0;
+    transform: scale(1.02);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-image-reveal {
+  animation: imageReveal 0.65s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Reduced motion respect */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+    transform: none !important;
+  }
+
+  .snap-scroll-container {
+    scroll-behavior: auto;
+  }
+}
+
+/* Hide scrollbar for clean editorial look */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

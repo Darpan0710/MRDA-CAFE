@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="14" fill="#873A35"/>
+  <!-- Minimalist Ceramic Cup & Steam -->
+  <path d="M28 14c0 4-2 6-2 10" stroke="#F1E9DC" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M36 12c0 5-2 7-2 12" stroke="#F1E9DC" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <!-- Cup Body -->
+  <path d="M20 30h24v8a10 10 0 0 1-10 10h-4a10 10 0 0 1-10-10v-8Z" stroke="#F1E9DC" stroke-width="2.5" fill="#FAF4EB"/>
+  <ellipse cx="32" cy="30" rx="12" ry="2.5" fill="#3D2012" stroke="#F1E9DC" stroke-width="1.5"/>
+  <!-- Cup Handle -->
+  <path d="M44 32h4a3 3 0 0 1 0 6h-4" stroke="#F1E9DC" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <!-- Saucer -->
+  <ellipse cx="32" cy="51" rx="20" ry="3" fill="#F1E9DC"/>
+</svg>
+
